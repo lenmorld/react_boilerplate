@@ -14,7 +14,6 @@
     "webpack-dev-server": "^3.10.1"
   },
   "scripts": {
-    "start": "node server.js",
     "build": "webpack --progress --profile --colors",
     "dev": "webpack-dev-server --hot --inline"
   },

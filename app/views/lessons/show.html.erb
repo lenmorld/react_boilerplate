@@ -1,0 +1,18 @@
+<p>
+    <strong>Title:</strong>
+    <%= @lesson.title %>
+</p>
+
+<p>
+    <strong>Text:</strong>
+    <%= @lesson.text %>
+</p>
+
+<h2>Comments</h2>
+<%= render @lesson.comments %>
+
+<h2>Add a comment:</h2>
+<%= render 'comments/form' %>
+
+<%= link_to 'Edit', edit_lesson_path(@lesson) %>
+<%= link_to 'Back', lessons_path %>
