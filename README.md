@@ -7,9 +7,7 @@ $ npm install
 $ npm run dev
 ```
 
-## Webpack dev server
-
-runs on 4001 with  hot-reloading
+> `webpack-dev-server` runs on 4001 with  hot-reloading
 
 ## Deploy
 
