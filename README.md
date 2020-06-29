@@ -1,28 +1,11 @@
-# React boilerplate with webpack dev server
+# Minimal React setup with Parcel and Babel 7
 
-## Dev
 
-```
-$ npm install
-$ npm run dev
-```
 
-> `webpack-dev-server` runs on 4001 with  hot-reloading
+Resources:
 
-## Deploy
+https://babeljs.io/docs/en/v7-migration
 
-```
-$ npm install
-$ npm run build
-```
+https://parceljs.org/recipes.html
 
-> builds `bundle.js`
-
-## Components
-
-- webpack 4
-- babel 7 with react preset
-
-## Nice-to-haves
-
-- [Cheap source maps](https://lennythedev.com/webpack/prettify_devtools/)
+https://www.digitalocean.com/community/tutorials/how-to-set-up-a-react-project-with-parcel
