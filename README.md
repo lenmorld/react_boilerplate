@@ -1,6 +1,13 @@
 # Minimal React setup with Parcel and Babel 7
 
+```bash
+$ npm
+$ npm run dev
+```
 
+Parcel hot-reload dev server starts at 
+localhost:5000
+(change port on package.json)
 
 Resources:
 
