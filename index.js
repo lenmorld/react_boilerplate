@@ -1,14 +1,9 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import Hello from './Hello'
 
-class Hello extends React.Component {
-	render() {
-		return (
-			<div>
-				<h1>Hello {this.props.name}</h1>
-			</div>
-		)
-	}
-}
+const App = () => (
+	<Hello name="Lenny" />
+)
 
-ReactDOM.render(<Hello name="Lenny" />, document.getElementById("app"));
+ReactDOM.render(<App />, document.getElementById("app"));
