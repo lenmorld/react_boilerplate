@@ -16,6 +16,20 @@ $ npm run build
 
 Parcel builds to `dist/`
 
+## storybook
+```bash
+$ npm run storybook
+```
+
+Starts storybook
+
+## build-storybook
+```bash
+$ npm run build-storybook
+```
+
+Builds storybook to `storybook-static/`
+
 # Options:
 
 Modify the npm scripts to customize dev and build options:
